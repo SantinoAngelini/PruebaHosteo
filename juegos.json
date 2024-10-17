@@ -1,0 +1,15 @@
+[
+    { "nombre": "Mortal Kombat 11", "precio": 27000, "cantidad": 3, "imagen": "/img/Mk_cover.jpg" },
+    { "nombre": "Dark Souls 3", "precio": 13000, "cantidad": 2, "imagen": "/img/drk3.jpg"  },
+    { "nombre": "Elden Ring", "precio": 60000, "cantidad": 6, "imagen": "/img/elden.jpg"  },
+    { "nombre": "Little Nightmares", "precio": 8700, "cantidad": 9, "imagen": "/img/little.jpg"  },
+    { "nombre": "God of War: Ragnarok", "precio": 43000, "cantidad": 1, "imagen": "/img/gow.jpg"  },
+    { "nombre": "The Witcher 3: Wild Hunt", "precio": 25000, "cantidad": 4, "imagen": "/img/witcher.jpg"  },
+    { "nombre": "Cyberpunk 2077", "precio": 49000, "cantidad": 2, "imagen": "/img/cyber.jpg"  },
+    { "nombre": "Hollow Knight", "precio": 15000, "cantidad": 5, "imagen": "/img/hollow.jpg"  },
+    { "nombre": "Assassin's Creed Valhalla", "precio": 55000, "cantidad": 3, "imagen": "/img/assasin.jpg"  },
+    { "nombre": "Resident Evil Village", "precio": 36000, "cantidad": 2, "imagen": "/img/resident.jpg"  },
+    { "nombre": "Final Fantasy VII Remake", "precio": 48000, "cantidad": 1, "imagen": "/img/final.jpg"  },
+    { "nombre": "Spider-Man: Miles Morales", "precio": 32000, "cantidad": 4, "imagen": "/img/spider3.jpg"  }
+]
+

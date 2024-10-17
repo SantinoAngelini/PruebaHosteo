@@ -1,0 +1,302 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #181818;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: #f1c40f;
+    font-size: 28px;
+}
+
+nav {
+    display: flex;              
+    background-color: #222;
+    padding: 15px;
+}
+
+nav ul {
+    display: flex;             
+    list-style-type: none;    
+    padding: 0;               
+    margin: 0;                
+    width: 100%;              
+}
+
+nav li {
+    flex: 1;                  
+    text-align: center;       
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #444;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin: 5px;             
+}
+
+nav a:hover {
+    background-color: #f1c40f;
+    color: #000;
+}
+
+#usuarioSection {
+    background-color: #222;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 400px; 
+    margin: 40px auto; 
+    text-align: center; 
+}
+
+#usuarioSection h2 {
+    color: #f1c40f; 
+    margin-bottom: 20px; 
+}
+
+#loginForm {
+    display: flex;
+    flex-direction: column; 
+}
+
+#loginForm label {
+    margin-bottom: 5px; 
+    color: white; 
+}
+
+#usuarioInput {
+    padding: 10px; 
+    margin-bottom: 15px; 
+    border: none; 
+    border-radius: 5px; 
+    background-color: #444; 
+    color: white; 
+    font-size: 16px; 
+}
+
+#usuarioInput::placeholder {
+    color: #888; 
+}
+
+#ingresarUsuario {
+    background-color: #f1c40f; 
+    color: black; 
+    border: none; 
+    padding: 10px; 
+    font-size: 16px; 
+    font-weight: bold; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    transition: background-color 0.3s ease; 
+}
+
+#ingresarUsuario:hover {
+    background-color: #e1b40e; 
+}
+
+#catalogo {
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+#catalogoLista {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); 
+    gap: 20px; 
+}
+
+.card {
+    background-color: #333;
+    border: 2px solid #555;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05); 
+}
+
+.card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #f1c40f;
+}
+
+.card p {
+    margin: 10px 0;
+}
+
+.card input[type="number"] {
+    width: 50px;
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.card-img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 5px; 
+    margin-bottom: 10px; 
+}
+
+
+.card button {
+    background-color: yellow;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.card button:hover {
+    background-color: #f1c40f; 
+}
+
+
+footer {
+    background-color: #222;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+
+
+
+#carritoSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    padding: 20px; 
+    background-color: #888; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    width: 90%; 
+    max-width: 500px; 
+    box-sizing: border-box; 
+}
+
+
+.btn-finalizar-compra {
+    background-color: #f1c40f;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius:10px
+}
+
+.btn-volver-catalogo {
+    background-color: #f1c40f;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius:10px
+}
+
+
+#carritoLista {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+    width: 100%; 
+}
+
+#carritoLista li {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px;
+    border-bottom: 1px solid #ccc; 
+}
+
+#carritoLista li button {
+    background-color: #e74c3c; 
+    color: white; 
+    border: none; 
+    padding: 5px 10px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+
+#carritoLista li button:hover {
+    background-color: #c0392b; 
+}
+
+
+#totalCarrito {
+    margin-top: 20px; 
+    font-weight: bold; 
+}
+
+
+
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+    color: #888;
+}
+
+
+
+
+@media (max-width: 1200px) {
+    #catalogoLista {
+        grid-template-columns: repeat(4, 1fr); 
+    }
+}
+
+@media (max-width: 768px) {
+    #catalogoLista {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+
+    nav {
+        flex-direction: column; 
+    }
+
+    nav ul {
+        flex-direction: column; 
+    }
+
+    nav a {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    #catalogoLista {
+        grid-template-columns: 1fr; 
+    }
+}
